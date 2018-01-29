@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const PORT = process.env.PORT || 5000;
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://maksym7:nowaswinka5@ds217138.mlab.com:17138/database1', {
+mongoose.connect('mongodb://maksym7:nowaswinka5@ds219318.mlab.com:19318/database2', {
     useMongoClient: true
 });
 
